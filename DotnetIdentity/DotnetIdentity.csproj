@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Azure.Identity" Version="1.7.0" />
+		<PackageReference Include="Azure.Security.KeyVault.Certificates" Version="4.4.0" />
+		<PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.4.0" />
+		<PackageReference Include="Flurl" Version="3.0.6" />
+		<PackageReference Include="Humanizer.Core" Version="2.14.1" />
+		<PackageReference Include="log4net.AspNetCore" Version="1.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.15" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
+		<PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="2.2.0" />
+
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.15" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="7.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+			<!--<PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>-->
+
+			<!--<PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>-->
+		</PackageReference>
+
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.27.0" />
+
+
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+		<PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="6.0.10">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.DiagnosticAdapter" Version="3.1.30" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+		<PackageReference Include="NPOI" Version="2.5.6" />
+		<PackageReference Include="NSwag.ApiDescription.Client" Version="13.17.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
+		<PackageReference Include="System.ServiceModel.Primitives" Version="4.10.0" />
+	</ItemGroup>
+	
+</Project>
